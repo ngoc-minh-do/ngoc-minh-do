@@ -1,7 +1,7 @@
 ## Hi there 👋
 
 ![Ngoc Do's GitHub stats](https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&theme=radical)
-![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=compact)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=compact&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,html)
 <!--
 **ngoc-minh-do/ngoc-minh-do** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
