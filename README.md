@@ -10,10 +10,10 @@
 
 <picture>
   <source
-    srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,html&theme=dark"
+    srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&hide=jupyter%20notebook%2Chtml&theme=dark"
     media="(prefers-color-scheme: dark)"
   />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,html&theme=radical" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&hide=jupyter%20notebook%2Chtml&theme=radical" />
 </picture>
 
 <a href="https://github.com/ngoc-minh-do/ha-nescafe-ble">
