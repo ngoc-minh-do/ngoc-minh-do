@@ -2,18 +2,18 @@
 
 <picture>
   <source
-    srcset="https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&hide_border=true&rank_icon=github&show=prs_merged,prs_merged_percentage&number_format=long&theme=dark"
+    srcset="https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&hide_border=true&rank_icon=github&show=prs_merged,prs_merged_percentage&number_format=long"
     media="(prefers-color-scheme: dark)"
   />
-  <img src="https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&hide_border=true&rank_icon=github&show=prs_merged,prs_merged_percentage&number_format=long&theme=radical" />
+  <img src="https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&hide_border=true&rank_icon=github&show=prs_merged,prs_merged_percentage&number_format=long" />
 </picture>
 
 <picture>
   <source
-    srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&hide=jupyter%20notebook%2Chtml&theme=dark"
+    srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&hide=jupyter%20notebook%2Chtml"
     media="(prefers-color-scheme: dark)"
   />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&hide=jupyter%20notebook%2Chtml&theme=radical" />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&hide=jupyter%20notebook%2Chtml" />
 </picture>
 
 <a href="https://github.com/ngoc-minh-do/ha-nescafe-ble">
