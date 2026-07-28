@@ -1,18 +1,24 @@
-## Hi there 👋
+## Hi there 👏
 
-![Ngoc Do's GitHub stats](https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&theme=radical)
-![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=compact&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,html)
-<!--
-**ngoc-minh-do/ngoc-minh-do** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<picture>
+  <source
+    srcset="https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&hide_border=true&rank_icon=github&show=prs_merged,prs_merged_percentage&number_format=long&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img src="https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&hide_border=true&rank_icon=github&show=prs_merged,prs_merged_percentage&number_format=long&theme=radical" />
+</picture>
 
-Here are some ideas to get you started:
+<picture>
+  <source
+    srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,html&theme=dark"
+    media="(prefers-color-scheme: dark)"
+  />
+  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&size_weight=0.5&count_weight=0.5&hide=jupyter%20notebook,html&theme=radical" />
+</picture>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+[![Readme Card](https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=ha-nescafe-ble&hide_border=true&theme=dark#gh-dark-mode-only)](https://github.com/ngoc-minh-do/ha-nescafe-ble)
+[![Readme Card](https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=ha-nescafe-ble&hide_border=true&theme=radical#gh-light-mode-only)](https://github.com/ngoc-minh-do/ha-nescafe-ble)
+[![Readme Card](https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=ha-sesame-ble&hide_border=true&theme=dark#gh-dark-mode-only)](https://github.com/ngoc-minh-do/ha-sesame-ble)
+[![Readme Card](https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=ha-sesame-ble&hide_border=true&theme=radical#gh-light-mode-only)](https://github.com/ngoc-minh-do/ha-sesame-ble)
+[![Readme Card](https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=broadlink-code-generator&hide_border=true&theme=dark#gh-dark-mode-only)](https://github.com/ngoc-minh-do/broadlink-code-generator)
+[![Readme Card](https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=broadlink-code-generator&hide_border=true&theme=radical#gh-light-mode-only)](https://github.com/ngoc-minh-do/broadlink-code-generator)
