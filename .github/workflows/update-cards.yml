@@ -1,0 +1,94 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: stats
+          options: username=ngoc-minh-do&show_icons=true&hide_border=true&rank_icon=github&show=prs_merged,prs_merged_percentage&number_format=long
+          path: profile/stats.svg
+          token: ${{ secrets.GH_PAT }}
+          fail_on_error: true
+
+      - name: Generate top languages card
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: top-langs
+          options: username=ngoc-minh-do&layout=donut&hide_border=true&hide=jupyter%20notebook%2Chtml
+          path: profile/top-langs.svg
+          token: ${{ secrets.GH_PAT }}
+          fail_on_error: true
+
+      - name: Generate ha-nescafe-ble pin cards
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ngoc-minh-do&repo=ha-nescafe-ble&hide_border=true&theme=dark
+          path: profile/pin-ha-nescafe-ble-dark.svg
+          token: ${{ secrets.GH_PAT }}
+          fail_on_error: true
+        id: pin-ha-nescafe-ble-dark
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ngoc-minh-do&repo=ha-nescafe-ble&hide_border=true&theme=radical
+          path: profile/pin-ha-nescafe-ble-radical.svg
+          token: ${{ secrets.GH_PAT }}
+          fail_on_error: true
+
+      - name: Generate ha-sesame-ble pin cards
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ngoc-minh-do&repo=ha-sesame-ble&hide_border=true&theme=dark
+          path: profile/pin-ha-sesame-ble-dark.svg
+          token: ${{ secrets.GH_PAT }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ngoc-minh-do&repo=ha-sesame-ble&hide_border=true&theme=radical
+          path: profile/pin-ha-sesame-ble-radical.svg
+          token: ${{ secrets.GH_PAT }}
+          fail_on_error: true
+
+      - name: Generate broadlink-code-generator pin cards
+        uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ngoc-minh-do&repo=broadlink-code-generator&hide_border=true&theme=dark
+          path: profile/pin-broadlink-code-generator-dark.svg
+          token: ${{ secrets.GH_PAT }}
+          fail_on_error: true
+
+      - uses: stats-organization/github-readme-stats-action@v2
+        with:
+          card: pin
+          options: username=ngoc-minh-do&repo=broadlink-code-generator&hide_border=true&theme=radical
+          path: profile/pin-broadlink-code-generator-radical.svg
+          token: ${{ secrets.GH_PAT }}
+          fail_on_error: true
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git commit -m "Update README cards" || exit 0
+          git push

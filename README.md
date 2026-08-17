@@ -1,36 +1,24 @@
 ## Hi there 👏
 
-<picture>
-  <source
-    srcset="https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&hide_border=true&rank_icon=github&show=prs_merged,prs_merged_percentage&number_format=long"
-    media="(prefers-color-scheme: dark)"
-  />
-  <img src="https://github-stats-extended.vercel.app/api?username=ngoc-minh-do&show_icons=true&hide_border=true&rank_icon=github&show=prs_merged,prs_merged_percentage&number_format=long" />
-</picture>
+<img src="./profile/stats.svg" />
 
-<picture>
-  <source
-    srcset="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&hide=jupyter%20notebook%2Chtml"
-    media="(prefers-color-scheme: dark)"
-  />
-  <img src="https://github-stats-extended.vercel.app/api/top-langs/?username=ngoc-minh-do&layout=donut&hide_border=true&hide=jupyter%20notebook%2Chtml" />
-</picture>
+<img src="./profile/top-langs.svg" />
 
 <a href="https://github.com/ngoc-minh-do/ha-nescafe-ble">
   <picture>
-    <source srcset="https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=ha-nescafe-ble&hide_border=true&theme=dark" media="(prefers-color-scheme: dark)" />
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=ha-nescafe-ble&hide_border=true&theme=radical" />
+    <source srcset="./profile/pin-ha-nescafe-ble-dark.svg" media="(prefers-color-scheme: dark)" />
+    <img src="./profile/pin-ha-nescafe-ble-radical.svg" />
   </picture>
 </a>
 <a href="https://github.com/ngoc-minh-do/ha-sesame-ble">
   <picture>
-    <source srcset="https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=ha-sesame-ble&hide_border=true&theme=dark" media="(prefers-color-scheme: dark)" />
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=ha-sesame-ble&hide_border=true&theme=radical" />
+    <source srcset="./profile/pin-ha-sesame-ble-dark.svg" media="(prefers-color-scheme: dark)" />
+    <img src="./profile/pin-ha-sesame-ble-radical.svg" />
   </picture>
 </a>
 <a href="https://github.com/ngoc-minh-do/broadlink-code-generator">
   <picture>
-    <source srcset="https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=broadlink-code-generator&hide_border=true&theme=dark" media="(prefers-color-scheme: dark)" />
-    <img src="https://github-stats-extended.vercel.app/api/pin/?username=ngoc-minh-do&repo=broadlink-code-generator&hide_border=true&theme=radical" />
+    <source srcset="./profile/pin-broadlink-code-generator-dark.svg" media="(prefers-color-scheme: dark)" />
+    <img src="./profile/pin-broadlink-code-generator-radical.svg" />
   </picture>
 </a>
