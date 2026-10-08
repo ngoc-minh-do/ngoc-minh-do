@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">Ngoc Do&#39;s GitHub Stats, Rank: B</title>
-        <desc id="descId">Total Stars Earned: 29, Total Commits  (last year) : 1242, Total PRs: 26, Total PRs Merged: 10, Merged PRs Percentage: 38.46, Total Issues: 215, Contributed to (last year): 30</desc>
+        <desc id="descId">Total Stars Earned: 29, Total Commits  (last year) : 1321, Total PRs: 26, Total PRs Merged: 10, Merged PRs Percentage: 38.46, Total Issues: 217, Contributed to (last year): 30</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 126.15742522162942;
+        stroke-dashoffset: 125.89125100581755;
       }
     }
   
@@ -184,7 +184,7 @@
         x="224.01"
         y="12.5"
         data-testid="commits"
-      >1242</text>
+      >1321</text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms" transform="translate(25, 0)">
@@ -244,7 +244,7 @@
         x="224.01"
         y="12.5"
         data-testid="issues"
-      >215</text>
+      >217</text>
     </g>
   </g><g transform="translate(0, 150)">
     <g class="stagger" style="animation-delay: 1350ms" transform="translate(25, 0)">
